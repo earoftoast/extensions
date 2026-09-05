@@ -1,5 +1,5 @@
 import { getApplications, getPreferenceValues, LocalStorage, Toast, showToast } from "@raycast/api";
-import { parse } from "csv-parse/sync";
+import { parse } from "csv-parse/browser/esm/sync";
 import child_process from "child_process";
 import process from "process";
 
